@@ -1,0 +1,49 @@
+.formcontainer{
+	width: 40%;
+	background-color:brown;
+	padding:1%;
+	margin: 4% auto;
+	box-shadow: 2px 2px 2px 2px black;
+}   
+.inputfieldcontainer{
+	background-color:aqua brown;
+	border-radius:30px;
+	padding:1%;
+    padding-left:2%;
+    margin-top: 2%;
+}   
+.inputfieldcontainer input{
+	border:none;
+	width:30%;
+}
+.inputfieldcontainer input:focus{
+	outline:none;
+
+}
+.inputfieldcontainer  i{
+    color: wheat;
+}
+.agree span{
+	color: white;
+}
+.agree span a{
+	color:black;
+}
+.action input{
+	border-radius: 15px;
+	/height:30%;/
+	background-color: green;
+	color: white;
+	width:250px;
+	padding:3%;
+	border:none;
+}
+.action{
+	margin-top: 3%;
+	text-align: right;
+}
+.action input:hover{
+background-color:wheat;
+color: black;
+cursor: pointer;
+}

@@ -1,0 +1,56 @@
+	.offers{
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+.offers div{
+	width:100%;
+	height:50%;
+		background-color:olive;
+		color: white;
+		padding:1px 1px 1px 1px;
+		margin:2%;
+		text-align: center;
+	}
+	.offers div img{
+		width:23%;
+		height:25%;
+		margin:2%;
+		padding: 1px 1px 1px 1px; 
+		opacity:0.5;
+		
+	}
+	.offers div button{
+		text-align: right;
+		color:white;
+		background-color: steelblue;
+			}
+			.offers div img:hover{
+	transition:all is ease;
+	opacity:1;
+	width:65%;
+	height:50%;
+}
+/*queries for mobile mode*/
+@media only screen and(min-height:768px)and (max-width:1023px);{
+.header div{
+	width:95%;
+}
+/*table mode*/
+/*desktop/laptop:width>=1024px*/
+@media only screen and (min-width:768px) and (max-width:1024px){
+	.header div{
+		width:40%;
+	}
+}
+.offers{
+	flex-direction:column;
+}
+.offers div{
+	width:95%;
+}
+}
+.offers div{
+	width:40%;
+}
+}

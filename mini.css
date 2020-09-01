@@ -1,0 +1,74 @@
+.header{
+background-image:url(https://as1.ftcdn.net/jpg/01/62/05/26/500_F_162052694_CPANlRavBvdcFP2NU3duqMuGxaL428A5.jpg)
+ }
+.header img{
+	height:35%;
+	width:25%;
+}
+.mode{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		.mode h4{
+			text-align: center;
+		}
+		}
+		.foot{
+			background-color: steelblue;
+		}
+		.moto{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+
+.navigationkeys {
+	color:blue;
+	text-align: center;
+	border:2px solid grey;
+	padding:1%;
+	background-color:pink;
+}
+.navigationkeys input{
+	border:none;
+	width:25%;
+
+}
+.navigationkeys b{
+	border:2px solid blue;
+	border-radius:1% 1% 1% 1%;
+}
+.content  {
+	background-color:wheat;
+
+}
+.content p{
+    
+}
+.foot{
+	background-color:pink;
+}
+.moto{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+@media only screen and(min-height:320px)and (max-width:767px);{
+
+.offers{
+	flex-direction:column;
+}
+.offers div{
+	width:95%;
+}
+}
+Desktop/laptop:width:1024px
+.offers div{
+	width:40%;
+}
+}
